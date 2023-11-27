@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;700;800&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">    
+    <!--CSS-->
     <link rel="stylesheet" href="login-styles.css">
     <title>Marco's Login UI Draft 3</title>
 </head>
 <body>
-    <h1>Login UI Draft 3</h1>
+    <h1>Login UI: Draft 3</h1>
 
     <!---- This contained everything ---->
     
@@ -18,23 +25,24 @@
 
             <!-- LOGIN FORM BEGINS HERE -->
         <div class="container-login">
-            <h2>Mountain Resorts</h2>
-            <h3>LOGIN</h3>
+            <h2>Trail Finder</h2>
+            <h3><strong>LOGIN </strong>to your account</h3>
             
             <form class="login-card" action="submit">
-                <input id="username" type="text" placeholder="Username" name="username" required>
-                <input id="password" type="text" placeholder="Password" name="password" required>
+                <input class="input-box" type="text" placeholder="Username" name="username" required>
+                <input class="input-box" type="password" placeholder="Password" name="password" required>
                 <input id="login-btn" type="submit" name="submit" value="Login">
-                <label class="label text remember-me">
-                    <input type="checkbox">Remember me
-                </label>
             </form>
+
+            <label class="label-text remember-me">
+                <input type="checkbox">Remember me
+            </label>
 
             <div id="lower-text">
                 <label class="label-text">
                     <a href="#">Forgot password?</a>
                 </label>
-                <div class="vertical-line">
+                <div id="vertical-line">
                     <!-- NO CONTENT GOES HERE -->
                 </div>
                 <label class="label-text">
