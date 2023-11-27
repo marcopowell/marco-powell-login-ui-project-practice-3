@@ -2,4 +2,40 @@ body {
     background-color: rgb(52, 48, 48);
     font-family: sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    height: 600px;
+    width: 900px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid wheat;
+    border-radius: 15px;
+}
+
+.container-image {
+    height: 100%;
+    width: 50%;
+    position: static; 
+    background-image: url("images/mountain-3.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.container-login {
+    color: black;
+    height: 600px;
+    width: 450px;
+    background-color: aqua;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.login-card {
+    background-color: bisque;
 }
